@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Provenance-Aware Knowledge Graph — Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="masthead">
+        <div class="masthead-inner">
+            <div class="masthead-top">
+                <span class="eyebrow">CTD Sindh · Prototype Interface</span>
+                <button id="presentation-toggle" class="presentation-toggle" aria-pressed="false">
+                    Presentation mode
+                </button>
+            </div>
+            <h1>Provenance-Aware Retrieval — Karachi Incident Set</h1>
+            <p class="masthead-sub">
+                Illustrative interface prototype demonstrating the evidence-tracing concept — not the full research
+                system.
+            </p>
+        </div>
+    </header>
+
+    <main class="layout">
+
+        <!-- LEFT: controls -->
+        <section class="panel controls-panel">
+
+            <!-- Fixed top: mode + provider -->
+            <div class="controls-fixed-top">
+                <div class="control-group">
+                    <span class="control-label">Retrieval mode</span>
+                    <div class="mode-toggle" role="tablist" aria-label="Retrieval mode">
+                        <button class="mode-btn active" data-mode="graph" role="tab" aria-selected="true">
+                            Graph
+                        </button>
+                        <button class="mode-btn" data-mode="baseline" role="tab" aria-selected="false">
+                            Baseline (RAG)
+                        </button>
+                    </div>
+                    <p class="control-hint" id="mode-hint">
+                        Answers by traversing typed nodes and edges, with per-edge attribution.
+                    </p>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="provider-select">Model provider</label>
+                    <select id="provider-select" class="provider-select">
+                        <option value="gemini">Gemini 3.6 Flash</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Scrollable middle: demo questions + question textarea -->
+            <div class="controls-scroll">
+                <div class="control-group">
+                    <span class="control-label">Demo questions</span>
+                    <div class="question-tiers" id="question-tiers">
+                        <!-- populated by app.js -->
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="question-input">Question</label>
+                    <textarea id="question-input" class="question-input" rows="3"
+                        placeholder="Ask about an incident, actor, weapon, or pattern…"></textarea>
+                </div>
+            </div>
+
+            <!-- Fixed bottom: Ask button -->
+            <div class="controls-fixed-bottom">
+                <button id="ask-btn" class="ask-btn">Ask</button>
+            </div>
+
+        </section>
+
+        <!-- RIGHT: answer + evidence -->
+        <section class="panel answer-panel">
+
+            <div class="answer-header">
+                <span class="answer-mode-tag" id="answer-mode-tag">GRAPH</span>
+                <span class="answer-provider-tag" id="answer-provider-tag">gemini</span>
+            </div>
+
+            <div class="answer-scroll">
+                <div class="answer-body" id="answer-body">
+                    <p class="answer-placeholder">
+                        Select a mode and ask a question to see the analysis.
+                    </p>
+                </div>
+
+                <div class="evidence-trail" id="evidence-trail" hidden>
+                    <div class="evidence-trail-header">
+                        <span class="evidence-label">Evidence trail</span>
+                        <div class="attribution-legend">
+                            <span class="legend-item"><span class="legend-dot dot-confirmed"></span>Confirmed /
+                                claimed</span>
+                            <span class="legend-item"><span class="legend-dot dot-suspected"></span>Suspected /
+                                unconfirmed</span>
+                        </div>
+                    </div>
+                    <div class="evidence-chips" id="evidence-chips" hidden></div>
+
+                    <div class="graph-toolbar" id="graph-toolbar" hidden>
+                        <div class="graph-legend">
+                            <span class="legend-item"><span class="legend-dot"
+                                    style="background:#c98a4b"></span>Incident</span>
+                            <span class="legend-item"><span class="legend-dot"
+                                    style="background:#4fbf9f"></span>Actor</span>
+                            <span class="legend-item"><span class="legend-dot"
+                                    style="background:#7a8dd6"></span>Weapon</span>
+                            <span class="legend-item"><span class="legend-dot" style="background:#d97ba0"></span>Attack
+                                type</span>
+                            <span class="legend-item"><span class="legend-dot" style="background:#8b93a0"></span>Target
+                                type</span>
+                        </div>
+                        <button type="button" id="download-svg-btn" class="download-svg-btn">Download SVG</button>
+                    </div>
+
+                    <div class="graph-viz" id="graph-viz" hidden></div>
+                    <div class="evidence-detail" id="evidence-detail" hidden></div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="foot-note">
+        Source: Global Terrorism Database (START) · Karachi subset, 27 incidents · For illustrative purposes only
+    </footer>
+
+    <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

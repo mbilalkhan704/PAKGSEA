@@ -1,0 +1,3619 @@
+{
+    "metadata": {
+        "name": "Provenance-Aware Knowledge Graph for Security Event Analysis",
+        "geographic_scope": "Sindh, Pakistan",
+        "demo_scope": "Karachi",
+        "source_dataset": "Global Terrorism Database",
+        "provider": "START",
+        "incident_count": 27
+    },
+    "nodes": [
+        {
+            "id": "incident:199803310001",
+            "type": "Incident",
+            "properties": {
+                "date": "1998-03-31",
+                "nkill": 3,
+                "nwound": 11
+            }
+        },
+        {
+            "id": "actor:Muttahida Qami Movement (MQM)",
+            "type": "Actor",
+            "name": "Muttahida Qami Movement (MQM)"
+        },
+        {
+            "id": "date:1998-03-31",
+            "type": "Date",
+            "name": "1998-03-31"
+        },
+        {
+            "id": "city:Karachi",
+            "type": "City",
+            "name": "Karachi"
+        },
+        {
+            "id": "attack_type:Bombing/Explosion",
+            "type": "AttackType",
+            "name": "Bombing/Explosion"
+        },
+        {
+            "id": "weapon:Explosives",
+            "type": "Weapon",
+            "name": "Explosives"
+        },
+        {
+            "id": "target_type:Private Citizens & Property",
+            "type": "TargetType",
+            "name": "Private Citizens & Property"
+        },
+        {
+            "id": "target:Civilians at a market in Karachi, Pakistan",
+            "type": "Target",
+            "name": "Civilians at a market in Karachi, Pakistan"
+        },
+        {
+            "id": "evidence:199803310001",
+            "type": "Evidence",
+            "properties": {
+                "text": "03/31/1998: Suspected members of Muttahida Qaumi Movement-Haqiqi (MQM) used bombs to attack a crowded market in Karachi, Pakistan, killing three and wounding 11 others. The market sustained substantial damage."
+            }
+        },
+        {
+            "id": "incident:199908050003",
+            "type": "Incident",
+            "properties": {
+                "date": "1999-08-05",
+                "nkill": 2,
+                "nwound": 3
+            }
+        },
+        {
+            "id": "date:1999-08-05",
+            "type": "Date",
+            "name": "1999-08-05"
+        },
+        {
+            "id": "attack_type:Armed Assault",
+            "type": "AttackType",
+            "name": "Armed Assault"
+        },
+        {
+            "id": "weapon:Firearms",
+            "type": "Weapon",
+            "name": "Firearms"
+        },
+        {
+            "id": "target_type:Police",
+            "type": "TargetType",
+            "name": "Police"
+        },
+        {
+            "id": "target:Police post in Gulshan-e-Iqbal, Karachi, Pakistan",
+            "type": "Target",
+            "name": "Police post in Gulshan-e-Iqbal, Karachi, Pakistan"
+        },
+        {
+            "id": "evidence:199908050003",
+            "type": "Evidence",
+            "properties": {
+                "text": "08/05/1999: Four armed men opened fire with Kalashnikovs on a police post in the busy eastern Gulshan-e-Iqbal area in Karachi, Pakistan, killing a policeman and a passerby and injuring three other policemen. The assailants were driving by at the time of the attack. Officials blamed the attack on the Muttahida Qaumi Movement (MQM), which denied the allegation."
+            }
+        },
+        {
+            "id": "incident:200009130009",
+            "type": "Incident",
+            "properties": {
+                "date": "2000-09-13",
+                "nkill": 2,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2000-09-13",
+            "type": "Date",
+            "name": "2000-09-13"
+        },
+        {
+            "id": "target_type:Government (General)",
+            "type": "TargetType",
+            "name": "Government (General)"
+        },
+        {
+            "id": "target:Rashid Anwer and Munir Ahmed, Mohajir Qami Movement activists",
+            "type": "Target",
+            "name": "Rashid Anwer and Munir Ahmed, Mohajir Qami Movement activists"
+        },
+        {
+            "id": "motive:Specific motive is unknown, but the victims were members of a political party that was in harsh rivalry with the Muttahida Qami Movement",
+            "type": "Motive",
+            "name": "Specific motive is unknown, but the victims were members of a political party that was in harsh rivalry with the Muttahida Qami Movement"
+        },
+        {
+            "id": "evidence:200009130009",
+            "type": "Evidence",
+            "properties": {
+                "text": "9/13/2000: Two members of the Mohajir Qami Movement were killed in a drive-by shooting in the central Liaquatabad area in Karachi, Pakistan. Rashid Anwer and Munir Ahmed were gunned down by two masked gunmen on a motorcycle. Mohajir Qaumi Movement has been locked in a bitter feud with the rival group Muttahida Qami Movement (MQM)."
+            }
+        },
+        {
+            "id": "incident:200104180005",
+            "type": "Incident",
+            "properties": {
+                "date": "2001-04-18",
+                "nkill": 2,
+                "nwound": null
+            }
+        },
+        {
+            "id": "date:2001-04-18",
+            "type": "Date",
+            "name": "2001-04-18"
+        },
+        {
+            "id": "target:Indiscriminate civilians in the Clifton area of Karachi, Pakistan",
+            "type": "Target",
+            "name": "Indiscriminate civilians in the Clifton area of Karachi, Pakistan"
+        },
+        {
+            "id": "evidence:200104180005",
+            "type": "Evidence",
+            "properties": {
+                "text": "04/18/2001: Militants suspected from the Muttahida Qami Movement (MQM) exploded two bombs in Clifton area of Karachi, Pakistan, killing two people."
+            }
+        },
+        {
+            "id": "incident:200205010003",
+            "type": "Incident",
+            "properties": {
+                "date": "2002-05-01",
+                "nkill": 0,
+                "nwound": 4
+            }
+        },
+        {
+            "id": "date:2002-05-01",
+            "type": "Date",
+            "name": "2002-05-01"
+        },
+        {
+            "id": "target_type:Business",
+            "type": "TargetType",
+            "name": "Business"
+        },
+        {
+            "id": "target:Al-Khair Juice Center",
+            "type": "Target",
+            "name": "Al-Khair Juice Center"
+        },
+        {
+            "id": "evidence:200205010003",
+            "type": "Evidence",
+            "properties": {
+                "text": "05/01/2002: In two related incidents, perpetrators planted and exploded two bombs in Karachi, Pakistan. This first blast occurred at Al-Khair Juice Center and injured four people. Local authorities believed that these incidents were related to a recent labor strike orchestrated by Muttahida Qami Movement (MQM). MQM, however, did not claim responsibility for the incident."
+            }
+        },
+        {
+            "id": "incident:200205010004",
+            "type": "Incident",
+            "properties": {
+                "date": "2002-05-01",
+                "nkill": 0,
+                "nwound": 16
+            }
+        },
+        {
+            "id": "target:Shaheen Masala Store",
+            "type": "Target",
+            "name": "Shaheen Masala Store"
+        },
+        {
+            "id": "evidence:200205010004",
+            "type": "Evidence",
+            "properties": {
+                "text": "05/01/2002: In two related incidents, perpetrators planted and exploded two bombs in Karachi, Pakistan. This second blast occurred, about 30 minutes after the first in Karachi, at the Empress Market and injured 16 people. Local authorities believed that the attacks were related to a strike that had been called by the Muttahida Qami Movement (MQM). MQM, however, did not claim responsibility for the bombing."
+            }
+        },
+        {
+            "id": "incident:200205020002",
+            "type": "Incident",
+            "properties": {
+                "date": "2002-05-02",
+                "nkill": 1,
+                "nwound": 5
+            }
+        },
+        {
+            "id": "date:2002-05-02",
+            "type": "Date",
+            "name": "2002-05-02"
+        },
+        {
+            "id": "target:Shop",
+            "type": "Target",
+            "name": "Shop"
+        },
+        {
+            "id": "evidence:200205020002",
+            "type": "Evidence",
+            "properties": {
+                "text": "05/02/2002: A boy, Shamsur Rehman, was killed and five others were injured when a bomb in a bag exploded inside a store. The bomb exploded after Rehman carried the bag into the store. No group claimed responsibility for the bombing, but the local ethnic political party, Muttahida Qami Movement (MQM), was suspected of being behind the attack. Just before the rise in violence and this incident occurred, the MQM called for a strike to protest the murder of two of its leaders, but its deputy chief Nassreen Jalil “condemned” this and all other “blasts.’"
+            }
+        },
+        {
+            "id": "incident:200205020003",
+            "type": "Incident",
+            "properties": {
+                "date": "2002-05-02",
+                "nkill": 0,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "target:A Music Shop located in Karachi's southern district",
+            "type": "Target",
+            "name": "A Music Shop located in Karachi's southern district"
+        },
+        {
+            "id": "evidence:200205020003",
+            "type": "Evidence",
+            "properties": {
+                "text": "05/02/2002: A bomb exploded outside of a music shop in Karachi, Pakistan. No one was injured in the attack, but the shop and two cars were damaged. No group claimed responsibility, but theMuttahida Qami Movement (MQM) was suspected of being behind the attack. Just before the rise in violence and this incident occurred, the MQM called for a strike to protest the murder of two of its leaders. MQM's Deputy Chief, Nassreen Jalil, condemned this bombing attack."
+            }
+        },
+        {
+            "id": "incident:201301310018",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-01-31",
+                "nkill": 3,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2013-01-31",
+            "type": "Date",
+            "name": "2013-01-31"
+        },
+        {
+            "id": "target_type:Religious Figures/Institutions",
+            "type": "TargetType",
+            "name": "Religious Figures/Institutions"
+        },
+        {
+            "id": "target:Sunni Clerics: Abdul Majeed Deenpuri, Mohammad Saleh",
+            "type": "Target",
+            "name": "Sunni Clerics: Abdul Majeed Deenpuri, Mohammad Saleh"
+        },
+        {
+            "id": "motive:The specific motive is unknown; however, sources speculate that the attack may be part of a larger trend of sectarian violence between Pakistan's majority Sunni and minority Shiite communities.",
+            "type": "Motive",
+            "name": "The specific motive is unknown; however, sources speculate that the attack may be part of a larger trend of sectarian violence between Pakistan's majority Sunni and minority Shiite communities."
+        },
+        {
+            "id": "evidence:201301310018",
+            "type": "Evidence",
+            "properties": {
+                "text": "01/31/2013: An assailant opened fire on a Jamia Banuri Uloom Islamia Seminary vehicle transporting clerics in Nursery neighborhood, Karachi, Pakistan. At least three clerics were killed in the assault. No group claimed responsibility; however, sources attributed the attack to the Muttahida Qami Movement (MQM)."
+            }
+        },
+        {
+            "id": "incident:201601290021",
+            "type": "Incident",
+            "properties": {
+                "date": "2016-01-29",
+                "nkill": 0,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2016-01-29",
+            "type": "Date",
+            "name": "2016-01-29"
+        },
+        {
+            "id": "target_type:Military",
+            "type": "TargetType",
+            "name": "Military"
+        },
+        {
+            "id": "target:Post",
+            "type": "Target",
+            "name": "Post"
+        },
+        {
+            "id": "evidence:201601290021",
+            "type": "Evidence",
+            "properties": {
+                "text": "01/29/2016: Assailants threw an explosive device at a Pakistan Rangers post in North Nazimabad neighborhood, Karachi, Sindh province, Pakistan. There were no reported casualties in the blast. Muttahida Qami Movement (MQM) claimed responsibility for the incident. In addition, officials attributed the attack to Al-Qaida in the Indian Subcontinent."
+            }
+        },
+        {
+            "id": "incident:201603180019",
+            "type": "Incident",
+            "properties": {
+                "date": "2016-03-18",
+                "nkill": 0,
+                "nwound": 2
+            }
+        },
+        {
+            "id": "date:2016-03-18",
+            "type": "Date",
+            "name": "2016-03-18"
+        },
+        {
+            "id": "target:Checkpost",
+            "type": "Target",
+            "name": "Checkpost"
+        },
+        {
+            "id": "evidence:201603180019",
+            "type": "Evidence",
+            "properties": {
+                "text": "03/18/2016: Assailants threw an explosive device at a Pakistan Rangers checkpost in Korangi neighborhood, Karachi, Sindh, Pakistan. At least two soldiers were injured in the blast. Muttahida Qami Movement (MQM) claimed responsibility for the attack."
+            }
+        },
+        {
+            "id": "incident:201603210023",
+            "type": "Incident",
+            "properties": {
+                "date": "2016-03-21",
+                "nkill": 0,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2016-03-21",
+            "type": "Date",
+            "name": "2016-03-21"
+        },
+        {
+            "id": "evidence:201603210023",
+            "type": "Evidence",
+            "properties": {
+                "text": "03/21/2016: Assailants threw an explosive device at a Pakistan Rangers checkpost in Korangi neighborhood, Karachi, Sindh, Pakistan. There were no reported casualties in the blast. Muttahida Qami Movement (MQM) claimed responsibility for the attack."
+            }
+        },
+        {
+            "id": "incident:201707170038",
+            "type": "Incident",
+            "properties": {
+                "date": "2017-07-17",
+                "nkill": 2,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2017-07-17",
+            "type": "Date",
+            "name": "2017-07-17"
+        },
+        {
+            "id": "target:Members: Nadeem, Rashid",
+            "type": "Target",
+            "name": "Members: Nadeem, Rashid"
+        },
+        {
+            "id": "evidence:201707170038",
+            "type": "Evidence",
+            "properties": {
+                "text": "07/17/2017: Assailants opened fire on Pak Sarzameen Party (PSP) members in Orangi Town neighborhood, Karachi, Pakistan. At least two members were killed in the assault. No group claimed responsibility; however, authorities arrested two Muttahida Qami Movement (MQM) members in connection with the attack."
+            }
+        },
+        {
+            "id": "incident:201812230035",
+            "type": "Incident",
+            "properties": {
+                "date": "2018-12-23",
+                "nkill": 2,
+                "nwound": 2
+            }
+        },
+        {
+            "id": "date:2018-12-23",
+            "type": "Date",
+            "name": "2018-12-23"
+        },
+        {
+            "id": "target_type:Violent Political Party",
+            "type": "TargetType",
+            "name": "Violent Political Party"
+        },
+        {
+            "id": "target:Office",
+            "type": "Target",
+            "name": "Office"
+        },
+        {
+            "id": "evidence:201812230035",
+            "type": "Evidence",
+            "properties": {
+                "text": "12/23/2018: Assailants opened fire on a Pak Sarzameen Party office in Usmania Colony, Gulbahar, Karachi, Sindh, Pakistan. At least two workers, identified as Azhar Rehmat and Naeem Ramzan, were killed and two other workers were injured in the assault. No group claimed responsibility; however, sources attributed the attack to Muttahida Qami Movement (MQM)."
+            }
+        },
+        {
+            "id": "incident:201204050010",
+            "type": "Incident",
+            "properties": {
+                "date": "2012-04-05",
+                "nkill": 5,
+                "nwound": 14
+            }
+        },
+        {
+            "id": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "type": "Actor",
+            "name": "Tehrik-i-Taliban Pakistan (TTP)"
+        },
+        {
+            "id": "date:2012-04-05",
+            "type": "Date",
+            "name": "2012-04-05"
+        },
+        {
+            "id": "target:Convoy of Senior Official: Rao Anwar",
+            "type": "Target",
+            "name": "Convoy of Senior Official: Rao Anwar"
+        },
+        {
+            "id": "motive:Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident and stated that Rao Anwar was targeted in retaliation for torture he had conducted on imprisoned members of the TTP.",
+            "type": "Motive",
+            "name": "Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident and stated that Rao Anwar was targeted in retaliation for torture he had conducted on imprisoned members of the TTP."
+        },
+        {
+            "id": "evidence:201204050010",
+            "type": "Evidence",
+            "properties": {
+                "text": "04/05/2012: A suicide bomber in an explosives-laden car detonated near a Senior Superintendent of Police (SSP) at a market in Malir district, Sindh province, Pakistan. The SSP, Rao Anwar, was not wounded in the attack; however, five people, including police officers, were killed and 14 others injured. Tehrik-e-Taliban Pakistan (TTP) claimed responsibility for the incident, stating that the senior police officer was targeted in retaliation for torture he had conducted on imprisoned members of the group."
+            }
+        },
+        {
+            "id": "incident:201212180004",
+            "type": "Incident",
+            "properties": {
+                "date": "2012-12-18",
+                "nkill": 2,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2012-12-18",
+            "type": "Date",
+            "name": "2012-12-18"
+        },
+        {
+            "id": "target_type:Government (Diplomatic)",
+            "type": "TargetType",
+            "name": "Government (Diplomatic)"
+        },
+        {
+            "id": "target:Two volunteers for the Expanded Programme on Immunisation (EPI)",
+            "type": "Target",
+            "name": "Two volunteers for the Expanded Programme on Immunisation (EPI)"
+        },
+        {
+            "id": "motive:The specific motive is unknown; however, sources speculated that the victims were targeted because they were polio vaccination campaign workers.  Moreover, sources noted that the Taliban has previously stated their opposition to polio vaccination campaigns in Afghanistan and Pakistan because the armed group believes that the workers are United States (US) spies and that the vaccine is secretly intended to sterilize Muslims.",
+            "type": "Motive",
+            "name": "The specific motive is unknown; however, sources speculated that the victims were targeted because they were polio vaccination campaign workers.  Moreover, sources noted that the Taliban has previously stated their opposition to polio vaccination campaigns in Afghanistan and Pakistan because the armed group believes that the workers are United States (US) spies and that the vaccine is secretly intended to sterilize Muslims."
+        },
+        {
+            "id": "evidence:201212180004",
+            "type": "Evidence",
+            "properties": {
+                "text": "12/18/2012: Assailants on motorcycles opened fire on polio vaccination workers in Landhi Town, Karachi city, Sindh province, Pakistan. Two workers were killed in the attack. This was one of three similar attacks against polio vaccination workers in the country on the same day. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            }
+        },
+        {
+            "id": "incident:201301170025",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-01-17",
+                "nkill": 4,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2013-01-17",
+            "type": "Date",
+            "name": "2013-01-17"
+        },
+        {
+            "id": "attack_type:Assassination",
+            "type": "AttackType",
+            "name": "Assassination"
+        },
+        {
+            "id": "target:Member: Manzar Imam",
+            "type": "Target",
+            "name": "Member: Manzar Imam"
+        },
+        {
+            "id": "evidence:201301170025",
+            "type": "Evidence",
+            "properties": {
+                "text": "01/17/2013: Assailants opened fire on Manzar Imam's vehicle in Orangi Town, Sindh province, Pakistan. Manzar Imam, an Muttahida Qaumi Movement (MQM) provincial lawmaker, and three of his guards were killed in the attack. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            }
+        },
+        {
+            "id": "incident:201303030001",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-03-03",
+                "nkill": 45,
+                "nwound": 151
+            }
+        },
+        {
+            "id": "date:2013-03-03",
+            "type": "Date",
+            "name": "2013-03-03"
+        },
+        {
+            "id": "target:Shiite Mosque",
+            "type": "Target",
+            "name": "Shiite Mosque"
+        },
+        {
+            "id": "motive:The specific motive is unknown; however, sources posit that Lashkar-e-Jhangvi (LeJ), an affiliate of Tehrik-i-Taliban Pakistan (TTP), executed the attack because they were retaliating for the recent imprisonment of their leader Malik Ishaq and continuing their violent sectarian campaign against Pakistan's Shiite population.",
+            "type": "Motive",
+            "name": "The specific motive is unknown; however, sources posit that Lashkar-e-Jhangvi (LeJ), an affiliate of Tehrik-i-Taliban Pakistan (TTP), executed the attack because they were retaliating for the recent imprisonment of their leader Malik Ishaq and continuing their violent sectarian campaign against Pakistan's Shiite population."
+        },
+        {
+            "id": "evidence:201303030001",
+            "type": "Evidence",
+            "properties": {
+                "text": "03/03/2013: An explosives-laden car detonated in Abbas Town district, Karachi city, Sindh province, Pakistan. The explosion targeted a Shia mosque, killing at least 45 people and injuring more than 150 people. No group claimed responsibility for the attack; however, authorities arrested members of both Tehrik-i-Taliban Pakistan (TTP) and Lashkar-e-Jhangvi for their involvement in the incident."
+            }
+        },
+        {
+            "id": "incident:201303130003",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-03-13",
+                "nkill": 1,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2013-03-13",
+            "type": "Date",
+            "name": "2013-03-13"
+        },
+        {
+            "id": "target_type:NGO",
+            "type": "TargetType",
+            "name": "NGO"
+        },
+        {
+            "id": "target:Founder: Parveen Rehman",
+            "type": "Target",
+            "name": "Founder: Parveen Rehman"
+        },
+        {
+            "id": "evidence:201303130003",
+            "type": "Evidence",
+            "properties": {
+                "text": "03/13/2013: Gunmen on a motorcycle shot and killed Pakistani activist Parveen Rehman in Orangi Town area of Karachi, Sindh province, Pakistan. No group claimed responsibility for the attack; however a Tehrik-e-Taliban Pakistan (TTP) member suspected of the crime was killed the next day in a shootout with police."
+            }
+        },
+        {
+            "id": "incident:201304030011",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-04-03",
+                "nkill": 4,
+                "nwound": 4
+            }
+        },
+        {
+            "id": "date:2013-04-03",
+            "type": "Date",
+            "name": "2013-04-03"
+        },
+        {
+            "id": "target:Van",
+            "type": "Target",
+            "name": "Van"
+        },
+        {
+            "id": "motive:Ehsanullah Ehsan, spokesperson for Tehrik-i-Taliban Pakistan (TTP), claimed responsibility for the incident, stating that they targeted the Karachi Rangers because of their anti-TTP activities and support of the secular government.",
+            "type": "Motive",
+            "name": "Ehsanullah Ehsan, spokesperson for Tehrik-i-Taliban Pakistan (TTP), claimed responsibility for the incident, stating that they targeted the Karachi Rangers because of their anti-TTP activities and support of the secular government."
+        },
+        {
+            "id": "evidence:201304030011",
+            "type": "Evidence",
+            "properties": {
+                "text": "04/03/2013: Assailants threw a grenade at a military vehicle near Rangers headquarters in Karachi city, Sindh province, Pakistan. Four Rangers were killed and four people, including civilians, were injured. The Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the attack, stating that they targeted the Rangers because they supported the secular government."
+            }
+        },
+        {
+            "id": "incident:201304260001",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-04-26",
+                "nkill": 11,
+                "nwound": 40
+            }
+        },
+        {
+            "id": "date:2013-04-26",
+            "type": "Date",
+            "name": "2013-04-26"
+        },
+        {
+            "id": "target:General Secretary: Bashir Jan's Election Rally",
+            "type": "Target",
+            "name": "General Secretary: Bashir Jan's Election Rally"
+        },
+        {
+            "id": "motive:Ehsanullah Ehsan, a spokesperson for Tehrik-i-Taliban Pakistan (TTP), claimed responsibility for the incident, stating that TTP targeted the Awami National Party (ANP) because of the political organization’s secular views.",
+            "type": "Motive",
+            "name": "Ehsanullah Ehsan, a spokesperson for Tehrik-i-Taliban Pakistan (TTP), claimed responsibility for the incident, stating that TTP targeted the Awami National Party (ANP) because of the political organization’s secular views."
+        },
+        {
+            "id": "evidence:201304260001",
+            "type": "Evidence",
+            "properties": {
+                "text": "04/26/2013: An explosive device attached to a vehicle detonated in Karachi city, Sindh province, Pakistan. The incident occurred outside an Awami National Party office. Eleven people were killed and 40 others were injured in the attack. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            }
+        },
+        {
+            "id": "incident:201304270015",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-04-27",
+                "nkill": 6,
+                "nwound": 28
+            }
+        },
+        {
+            "id": "date:2013-04-27",
+            "type": "Date",
+            "name": "2013-04-27"
+        },
+        {
+            "id": "motive:The specific motive is unknown; however, sources note that Tehrik-i-Taliban Pakistan (TTP) vowed to attack Pakistan's secular political parties and organizations.",
+            "type": "Motive",
+            "name": "The specific motive is unknown; however, sources note that Tehrik-i-Taliban Pakistan (TTP) vowed to attack Pakistan's secular political parties and organizations."
+        },
+        {
+            "id": "evidence:201304270015",
+            "type": "Evidence",
+            "properties": {
+                "text": "04/27/2013: A remote controlled explosive device detonated in Karachi city, Sindh province, Pakistan. The device was hidden inside of a motorcycle outside of a Pakistan Peoples Party (PPP) office. Six people were killed and 28 were injured in the attack. This was one of three attacks in the city on this day, all of which were claimed by Tehrik-e-Taliban Pakistan (TTP)."
+            }
+        },
+        {
+            "id": "incident:201305040022",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-05-04",
+                "nkill": 3,
+                "nwound": 15
+            }
+        },
+        {
+            "id": "date:2013-05-04",
+            "type": "Date",
+            "name": "2013-05-04"
+        },
+        {
+            "id": "target_type:Journalists & Media",
+            "type": "TargetType",
+            "name": "Journalists & Media"
+        },
+        {
+            "id": "target:Journalists",
+            "type": "Target",
+            "name": "Journalists"
+        },
+        {
+            "id": "motive:Ehsanullah Ehsan, a spokesperson for the Tehrik-i-Taliban (TTP), claimed responsibility for the attack and stated that the Muttahida Qaumi Movement (MQM) office was targeted as part of a larger campaign of violence against secular parties by the TTP.",
+            "type": "Motive",
+            "name": "Ehsanullah Ehsan, a spokesperson for the Tehrik-i-Taliban (TTP), claimed responsibility for the attack and stated that the Muttahida Qaumi Movement (MQM) office was targeted as part of a larger campaign of violence against secular parties by the TTP."
+        },
+        {
+            "id": "evidence:201305040022",
+            "type": "Evidence",
+            "properties": {
+                "text": "05/04/2013: A suicide bomber detonated an explosives-laden motorcycle near a Muttahida Qaumi Movement (MQM) office in Karachi city, Sindh province, Pakistan. This was one of two blasts in the area on this day. In addition to the assailant, at least five people were killed and 30 others were injured across both blasts. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            }
+        },
+        {
+            "id": "incident:201305110015",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-05-11",
+                "nkill": 5,
+                "nwound": 18
+            }
+        },
+        {
+            "id": "date:2013-05-11",
+            "type": "Date",
+            "name": "2013-05-11"
+        },
+        {
+            "id": "target:Election Office of Candidate: Amanullah Mehsud",
+            "type": "Target",
+            "name": "Election Office of Candidate: Amanullah Mehsud"
+        },
+        {
+            "id": "motive:The specific motive is unknown; however, sources noted that the target, Amanullah Mehsud, is an Awami National Party (ANP) candidate in Pakistan's general election, which was being held on this date, May 11th, 2013.",
+            "type": "Motive",
+            "name": "The specific motive is unknown; however, sources noted that the target, Amanullah Mehsud, is an Awami National Party (ANP) candidate in Pakistan's general election, which was being held on this date, May 11th, 2013."
+        },
+        {
+            "id": "evidence:201305110015",
+            "type": "Evidence",
+            "properties": {
+                "text": "05/11/2013: An explosive device detonated near the Awami National Party (ANP) election office in Karachi city, Sindh province, Pakistan. This was one of two bombings that occurred within minutes of each other in the same area of Karachi; this first attack was meant to target Amanullah Mehsud, an election candidate. Mehsud was unharmed in the explosion; however, at least 10 people were killed and 36 others were injured across the two incidents. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the coordinated attacks."
+            }
+        },
+        {
+            "id": "incident:201306260008",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-06-26",
+                "nkill": 12,
+                "nwound": 14
+            }
+        },
+        {
+            "id": "date:2013-06-26",
+            "type": "Date",
+            "name": "2013-06-26"
+        },
+        {
+            "id": "target:Senior Judge: Maqbool Baqir's Convoy",
+            "type": "Target",
+            "name": "Senior Judge: Maqbool Baqir's Convoy"
+        },
+        {
+            "id": "motive:The Tehrik-i-Taliban Pakistan (TTP) claimed responsibility and stated that Justice Baqar Maqbool of the Sindh High Court was targeted due to his \"un-Islamic decisions\" against militants.",
+            "type": "Motive",
+            "name": "The Tehrik-i-Taliban Pakistan (TTP) claimed responsibility and stated that Justice Baqar Maqbool of the Sindh High Court was targeted due to his \"un-Islamic decisions\" against militants."
+        },
+        {
+            "id": "evidence:201306260008",
+            "type": "Evidence",
+            "properties": {
+                "text": "06/26/2013: A remote-controlled explosive device detonated in Karachi city, Sindh province, Pakistan. The explosion targeted Justice Maqbool Baqir of the Sindh High Court. Twelve people were killed and 14 others were injured, including the judge. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the attack, stating that the judge was targeted for his anti-Muslim verdicts. Sources also attributed the attack to Lashkar-e-Jhangvi."
+            }
+        },
+        {
+            "id": "incident:201308030014",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-08-03",
+                "nkill": 4,
+                "nwound": 0
+            }
+        },
+        {
+            "id": "date:2013-08-03",
+            "type": "Date",
+            "name": "2013-08-03"
+        },
+        {
+            "id": "target:Patrol: Zulfiqar",
+            "type": "Target",
+            "name": "Patrol: Zulfiqar"
+        },
+        {
+            "id": "evidence:201308030014",
+            "type": "Evidence",
+            "properties": {
+                "text": "08/03/2013: Six assailants on motorcycles opened fire on a Sharafi Goth Police patrol van in Bagh Korangi area, Karachi city, Sindh province, Pakistan. Four police officers were killed in the attack. No group claimed responsibility for the incident; however, police suspected that Tehrik-i-Taliban Pakistan (TTP) was involved."
+            }
+        },
+        {
+            "id": "incident:201311010044",
+            "type": "Incident",
+            "properties": {
+                "date": "2013-11-01",
+                "nkill": 2,
+                "nwound": 3
+            }
+        },
+        {
+            "id": "date:2013-11-01",
+            "type": "Date",
+            "name": "2013-11-01"
+        },
+        {
+            "id": "target:Internet Cafe",
+            "type": "Target",
+            "name": "Internet Cafe"
+        },
+        {
+            "id": "evidence:201311010044",
+            "type": "Evidence",
+            "properties": {
+                "text": "11/01/2013: Assailants attacked an Internet cafe in the Quaidabad area of Karachi city, Sindh province, Pakistan. The attack was intended to target someone who had already left the area. So, instead, the assailants exchanged gunfire with police. Two people were killed and three others, including an assailant, were wounded. No group claimed responsibility for the incident; however, the attack was attributed to Tehrik-i-Taliban Pakistan (TTP)."
+            }
+        }
+    ],
+    "edges": [
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:199803310001",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "summary",
+                "attribution": "suspected",
+                "text": "03/31/1998: Suspected members of Muttahida Qaumi Movement-Haqiqi (MQM) used bombs to attack a crowded market in Karachi, Pakistan, killing three and wounding 11 others. The market sustained substantial damage."
+            },
+            "id": "edge_001"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "OCCURRED_ON",
+            "target": "date:1998-03-31",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_002"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "city"
+            },
+            "id": "edge_003"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "attack_type"
+            },
+            "id": "edge_004"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "weapon"
+            },
+            "id": "edge_005"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Private Citizens & Property",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "target_type"
+            },
+            "id": "edge_006"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "TARGETED",
+            "target": "target:Civilians at a market in Karachi, Pakistan",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "target"
+            },
+            "id": "edge_007"
+        },
+        {
+            "source": "incident:199803310001",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:199803310001",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199803310001",
+                "source_field": "summary"
+            },
+            "id": "edge_008"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:199908050003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "summary",
+                "attribution": "blamed",
+                "text": "08/05/1999: Four armed men opened fire with Kalashnikovs on a police post in the busy eastern Gulshan-e-Iqbal area in Karachi, Pakistan, killing a policeman and a passerby and injuring three other policemen. The assailants were driving by at the time of the attack. Officials blamed the attack on the Muttahida Qaumi Movement (MQM), which denied the allegation."
+            },
+            "id": "edge_009"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "OCCURRED_ON",
+            "target": "date:1999-08-05",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_010"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "city"
+            },
+            "id": "edge_011"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "attack_type"
+            },
+            "id": "edge_012"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "weapon"
+            },
+            "id": "edge_013"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Police",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "target_type"
+            },
+            "id": "edge_014"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "TARGETED",
+            "target": "target:Police post in Gulshan-e-Iqbal, Karachi, Pakistan",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "target"
+            },
+            "id": "edge_015"
+        },
+        {
+            "source": "incident:199908050003",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:199908050003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "199908050003",
+                "source_field": "summary"
+            },
+            "id": "edge_016"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:200009130009",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "summary",
+                "attribution": "recorded_as_actor",
+                "text": "9/13/2000: Two members of the Mohajir Qami Movement were killed in a drive-by shooting in the central Liaquatabad area in Karachi, Pakistan. Rashid Anwer and Munir Ahmed were gunned down by two masked gunmen on a motorcycle. Mohajir Qaumi Movement has been locked in a bitter feud with the rival group Muttahida Qami Movement (MQM)."
+            },
+            "id": "edge_017"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "OCCURRED_ON",
+            "target": "date:2000-09-13",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_018"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "city"
+            },
+            "id": "edge_019"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "attack_type"
+            },
+            "id": "edge_020"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "weapon"
+            },
+            "id": "edge_021"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Government (General)",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "target_type"
+            },
+            "id": "edge_022"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "TARGETED",
+            "target": "target:Rashid Anwer and Munir Ahmed, Mohajir Qami Movement activists",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "target"
+            },
+            "id": "edge_023"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:Specific motive is unknown, but the victims were members of a political party that was in harsh rivalry with the Muttahida Qami Movement",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "motive"
+            },
+            "id": "edge_024"
+        },
+        {
+            "source": "incident:200009130009",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:200009130009",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200009130009",
+                "source_field": "summary"
+            },
+            "id": "edge_025"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:200104180005",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "summary",
+                "attribution": "suspected",
+                "text": "04/18/2001: Militants suspected from the Muttahida Qami Movement (MQM) exploded two bombs in Clifton area of Karachi, Pakistan, killing two people."
+            },
+            "id": "edge_026"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "OCCURRED_ON",
+            "target": "date:2001-04-18",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_027"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "city"
+            },
+            "id": "edge_028"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "attack_type"
+            },
+            "id": "edge_029"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "weapon"
+            },
+            "id": "edge_030"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Private Citizens & Property",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "target_type"
+            },
+            "id": "edge_031"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "TARGETED",
+            "target": "target:Indiscriminate civilians in the Clifton area of Karachi, Pakistan",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "target"
+            },
+            "id": "edge_032"
+        },
+        {
+            "source": "incident:200104180005",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:200104180005",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200104180005",
+                "source_field": "summary"
+            },
+            "id": "edge_033"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:200205010003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "summary",
+                "attribution": "believed",
+                "text": "05/01/2002: In two related incidents, perpetrators planted and exploded two bombs in Karachi, Pakistan. This first blast occurred at Al-Khair Juice Center and injured four people. Local authorities believed that these incidents were related to a recent labor strike orchestrated by Muttahida Qami Movement (MQM). MQM, however, did not claim responsibility for the incident."
+            },
+            "id": "edge_034"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "OCCURRED_ON",
+            "target": "date:2002-05-01",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_035"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "city"
+            },
+            "id": "edge_036"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "attack_type"
+            },
+            "id": "edge_037"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "weapon"
+            },
+            "id": "edge_038"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Business",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "target_type"
+            },
+            "id": "edge_039"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "TARGETED",
+            "target": "target:Al-Khair Juice Center",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "target"
+            },
+            "id": "edge_040"
+        },
+        {
+            "source": "incident:200205010003",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:200205010003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010003",
+                "source_field": "summary"
+            },
+            "id": "edge_041"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:200205010004",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "summary",
+                "attribution": "believed",
+                "text": "05/01/2002: In two related incidents, perpetrators planted and exploded two bombs in Karachi, Pakistan. This second blast occurred, about 30 minutes after the first in Karachi, at the Empress Market and injured 16 people. Local authorities believed that the attacks were related to a strike that had been called by the Muttahida Qami Movement (MQM). MQM, however, did not claim responsibility for the bombing."
+            },
+            "id": "edge_042"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "OCCURRED_ON",
+            "target": "date:2002-05-01",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_043"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "city"
+            },
+            "id": "edge_044"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "attack_type"
+            },
+            "id": "edge_045"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "weapon"
+            },
+            "id": "edge_046"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Business",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "target_type"
+            },
+            "id": "edge_047"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "TARGETED",
+            "target": "target:Shaheen Masala Store",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "target"
+            },
+            "id": "edge_048"
+        },
+        {
+            "source": "incident:200205010004",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:200205010004",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205010004",
+                "source_field": "summary"
+            },
+            "id": "edge_049"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:200205020002",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "summary",
+                "attribution": "suspected",
+                "text": "05/02/2002: A boy, Shamsur Rehman, was killed and five others were injured when a bomb in a bag exploded inside a store. The bomb exploded after Rehman carried the bag into the store. No group claimed responsibility for the bombing, but the local ethnic political party, Muttahida Qami Movement (MQM), was suspected of being behind the attack. Just before the rise in violence and this incident occurred, the MQM called for a strike to protest the murder of two of its leaders, but its deputy chief Nassreen Jalil “condemned” this and all other “blasts.’"
+            },
+            "id": "edge_050"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "OCCURRED_ON",
+            "target": "date:2002-05-02",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_051"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "city"
+            },
+            "id": "edge_052"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "attack_type"
+            },
+            "id": "edge_053"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "weapon"
+            },
+            "id": "edge_054"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Business",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "target_type"
+            },
+            "id": "edge_055"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "TARGETED",
+            "target": "target:Shop",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "target"
+            },
+            "id": "edge_056"
+        },
+        {
+            "source": "incident:200205020002",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:200205020002",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020002",
+                "source_field": "summary"
+            },
+            "id": "edge_057"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:200205020003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "summary",
+                "attribution": "suspected",
+                "text": "05/02/2002: A bomb exploded outside of a music shop in Karachi, Pakistan. No one was injured in the attack, but the shop and two cars were damaged. No group claimed responsibility, but theMuttahida Qami Movement (MQM) was suspected of being behind the attack. Just before the rise in violence and this incident occurred, the MQM called for a strike to protest the murder of two of its leaders. MQM's Deputy Chief, Nassreen Jalil, condemned this bombing attack."
+            },
+            "id": "edge_058"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "OCCURRED_ON",
+            "target": "date:2002-05-02",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_059"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "city"
+            },
+            "id": "edge_060"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "attack_type"
+            },
+            "id": "edge_061"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "weapon"
+            },
+            "id": "edge_062"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Business",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "target_type"
+            },
+            "id": "edge_063"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "TARGETED",
+            "target": "target:A Music Shop located in Karachi's southern district",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "target"
+            },
+            "id": "edge_064"
+        },
+        {
+            "source": "incident:200205020003",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:200205020003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "200205020003",
+                "source_field": "summary"
+            },
+            "id": "edge_065"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201301310018",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "01/31/2013: An assailant opened fire on a Jamia Banuri Uloom Islamia Seminary vehicle transporting clerics in Nursery neighborhood, Karachi, Pakistan. At least three clerics were killed in the assault. No group claimed responsibility; however, sources attributed the attack to the Muttahida Qami Movement (MQM)."
+            },
+            "id": "edge_066"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-01-31",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_067"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "city"
+            },
+            "id": "edge_068"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "attack_type"
+            },
+            "id": "edge_069"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "weapon"
+            },
+            "id": "edge_070"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Religious Figures/Institutions",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "target_type"
+            },
+            "id": "edge_071"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "TARGETED",
+            "target": "target:Sunni Clerics: Abdul Majeed Deenpuri, Mohammad Saleh",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "target"
+            },
+            "id": "edge_072"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:The specific motive is unknown; however, sources speculate that the attack may be part of a larger trend of sectarian violence between Pakistan's majority Sunni and minority Shiite communities.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "motive"
+            },
+            "id": "edge_073"
+        },
+        {
+            "source": "incident:201301310018",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201301310018",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301310018",
+                "source_field": "summary"
+            },
+            "id": "edge_074"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201601290021",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "01/29/2016: Assailants threw an explosive device at a Pakistan Rangers post in North Nazimabad neighborhood, Karachi, Sindh province, Pakistan. There were no reported casualties in the blast. Muttahida Qami Movement (MQM) claimed responsibility for the incident. In addition, officials attributed the attack to Al-Qaida in the Indian Subcontinent."
+            },
+            "id": "edge_075"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "OCCURRED_ON",
+            "target": "date:2016-01-29",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_076"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "city"
+            },
+            "id": "edge_077"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "attack_type"
+            },
+            "id": "edge_078"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "weapon"
+            },
+            "id": "edge_079"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Military",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "target_type"
+            },
+            "id": "edge_080"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "TARGETED",
+            "target": "target:Post",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "target"
+            },
+            "id": "edge_081"
+        },
+        {
+            "source": "incident:201601290021",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201601290021",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201601290021",
+                "source_field": "summary"
+            },
+            "id": "edge_082"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201603180019",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "03/18/2016: Assailants threw an explosive device at a Pakistan Rangers checkpost in Korangi neighborhood, Karachi, Sindh, Pakistan. At least two soldiers were injured in the blast. Muttahida Qami Movement (MQM) claimed responsibility for the attack."
+            },
+            "id": "edge_083"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "OCCURRED_ON",
+            "target": "date:2016-03-18",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_084"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "city"
+            },
+            "id": "edge_085"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "attack_type"
+            },
+            "id": "edge_086"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "weapon"
+            },
+            "id": "edge_087"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Military",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "target_type"
+            },
+            "id": "edge_088"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "TARGETED",
+            "target": "target:Checkpost",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "target"
+            },
+            "id": "edge_089"
+        },
+        {
+            "source": "incident:201603180019",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201603180019",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603180019",
+                "source_field": "summary"
+            },
+            "id": "edge_090"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201603210023",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "03/21/2016: Assailants threw an explosive device at a Pakistan Rangers checkpost in Korangi neighborhood, Karachi, Sindh, Pakistan. There were no reported casualties in the blast. Muttahida Qami Movement (MQM) claimed responsibility for the attack."
+            },
+            "id": "edge_091"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "OCCURRED_ON",
+            "target": "date:2016-03-21",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_092"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "city"
+            },
+            "id": "edge_093"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "attack_type"
+            },
+            "id": "edge_094"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "weapon"
+            },
+            "id": "edge_095"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Military",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "target_type"
+            },
+            "id": "edge_096"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "TARGETED",
+            "target": "target:Checkpost",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "target"
+            },
+            "id": "edge_097"
+        },
+        {
+            "source": "incident:201603210023",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201603210023",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201603210023",
+                "source_field": "summary"
+            },
+            "id": "edge_098"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201707170038",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "07/17/2017: Assailants opened fire on Pak Sarzameen Party (PSP) members in Orangi Town neighborhood, Karachi, Pakistan. At least two members were killed in the assault. No group claimed responsibility; however, authorities arrested two Muttahida Qami Movement (MQM) members in connection with the attack."
+            },
+            "id": "edge_099"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "OCCURRED_ON",
+            "target": "date:2017-07-17",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_100"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "city"
+            },
+            "id": "edge_101"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "attack_type"
+            },
+            "id": "edge_102"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "weapon"
+            },
+            "id": "edge_103"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Private Citizens & Property",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "target_type"
+            },
+            "id": "edge_104"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "TARGETED",
+            "target": "target:Members: Nadeem, Rashid",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "target"
+            },
+            "id": "edge_105"
+        },
+        {
+            "source": "incident:201707170038",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201707170038",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201707170038",
+                "source_field": "summary"
+            },
+            "id": "edge_106"
+        },
+        {
+            "source": "actor:Muttahida Qami Movement (MQM)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201812230035",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "12/23/2018: Assailants opened fire on a Pak Sarzameen Party office in Usmania Colony, Gulbahar, Karachi, Sindh, Pakistan. At least two workers, identified as Azhar Rehmat and Naeem Ramzan, were killed and two other workers were injured in the assault. No group claimed responsibility; however, sources attributed the attack to Muttahida Qami Movement (MQM)."
+            },
+            "id": "edge_107"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "OCCURRED_ON",
+            "target": "date:2018-12-23",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_108"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "city"
+            },
+            "id": "edge_109"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "attack_type"
+            },
+            "id": "edge_110"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "weapon"
+            },
+            "id": "edge_111"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Violent Political Party",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "target_type"
+            },
+            "id": "edge_112"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "TARGETED",
+            "target": "target:Office",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "target"
+            },
+            "id": "edge_113"
+        },
+        {
+            "source": "incident:201812230035",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201812230035",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201812230035",
+                "source_field": "summary"
+            },
+            "id": "edge_114"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201204050010",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "04/05/2012: A suicide bomber in an explosives-laden car detonated near a Senior Superintendent of Police (SSP) at a market in Malir district, Sindh province, Pakistan. The SSP, Rao Anwar, was not wounded in the attack; however, five people, including police officers, were killed and 14 others injured. Tehrik-e-Taliban Pakistan (TTP) claimed responsibility for the incident, stating that the senior police officer was targeted in retaliation for torture he had conducted on imprisoned members of the group."
+            },
+            "id": "edge_115"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "OCCURRED_ON",
+            "target": "date:2012-04-05",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_116"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "city"
+            },
+            "id": "edge_117"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "attack_type"
+            },
+            "id": "edge_118"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "weapon"
+            },
+            "id": "edge_119"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Police",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "target_type"
+            },
+            "id": "edge_120"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "TARGETED",
+            "target": "target:Convoy of Senior Official: Rao Anwar",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "target"
+            },
+            "id": "edge_121"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident and stated that Rao Anwar was targeted in retaliation for torture he had conducted on imprisoned members of the TTP.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "motive"
+            },
+            "id": "edge_122"
+        },
+        {
+            "source": "incident:201204050010",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201204050010",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201204050010",
+                "source_field": "summary"
+            },
+            "id": "edge_123"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201212180004",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "12/18/2012: Assailants on motorcycles opened fire on polio vaccination workers in Landhi Town, Karachi city, Sindh province, Pakistan. Two workers were killed in the attack. This was one of three similar attacks against polio vaccination workers in the country on the same day. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            },
+            "id": "edge_124"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "OCCURRED_ON",
+            "target": "date:2012-12-18",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_125"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "city"
+            },
+            "id": "edge_126"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "attack_type"
+            },
+            "id": "edge_127"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "weapon"
+            },
+            "id": "edge_128"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Government (Diplomatic)",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "target_type"
+            },
+            "id": "edge_129"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "TARGETED",
+            "target": "target:Two volunteers for the Expanded Programme on Immunisation (EPI)",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "target"
+            },
+            "id": "edge_130"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:The specific motive is unknown; however, sources speculated that the victims were targeted because they were polio vaccination campaign workers.  Moreover, sources noted that the Taliban has previously stated their opposition to polio vaccination campaigns in Afghanistan and Pakistan because the armed group believes that the workers are United States (US) spies and that the vaccine is secretly intended to sterilize Muslims.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "motive"
+            },
+            "id": "edge_131"
+        },
+        {
+            "source": "incident:201212180004",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201212180004",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201212180004",
+                "source_field": "summary"
+            },
+            "id": "edge_132"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201301170025",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "01/17/2013: Assailants opened fire on Manzar Imam's vehicle in Orangi Town, Sindh province, Pakistan. Manzar Imam, an Muttahida Qaumi Movement (MQM) provincial lawmaker, and three of his guards were killed in the attack. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            },
+            "id": "edge_133"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-01-17",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_134"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "city"
+            },
+            "id": "edge_135"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Assassination",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "attack_type"
+            },
+            "id": "edge_136"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "weapon"
+            },
+            "id": "edge_137"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Government (General)",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "target_type"
+            },
+            "id": "edge_138"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "TARGETED",
+            "target": "target:Member: Manzar Imam",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "target"
+            },
+            "id": "edge_139"
+        },
+        {
+            "source": "incident:201301170025",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201301170025",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201301170025",
+                "source_field": "summary"
+            },
+            "id": "edge_140"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201303030001",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "03/03/2013: An explosives-laden car detonated in Abbas Town district, Karachi city, Sindh province, Pakistan. The explosion targeted a Shia mosque, killing at least 45 people and injuring more than 150 people. No group claimed responsibility for the attack; however, authorities arrested members of both Tehrik-i-Taliban Pakistan (TTP) and Lashkar-e-Jhangvi for their involvement in the incident."
+            },
+            "id": "edge_141"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-03-03",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_142"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "city"
+            },
+            "id": "edge_143"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "attack_type"
+            },
+            "id": "edge_144"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "weapon"
+            },
+            "id": "edge_145"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Religious Figures/Institutions",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "target_type"
+            },
+            "id": "edge_146"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "TARGETED",
+            "target": "target:Shiite Mosque",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "target"
+            },
+            "id": "edge_147"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:The specific motive is unknown; however, sources posit that Lashkar-e-Jhangvi (LeJ), an affiliate of Tehrik-i-Taliban Pakistan (TTP), executed the attack because they were retaliating for the recent imprisonment of their leader Malik Ishaq and continuing their violent sectarian campaign against Pakistan's Shiite population.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "motive"
+            },
+            "id": "edge_148"
+        },
+        {
+            "source": "incident:201303030001",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201303030001",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303030001",
+                "source_field": "summary"
+            },
+            "id": "edge_149"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201303130003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "03/13/2013: Gunmen on a motorcycle shot and killed Pakistani activist Parveen Rehman in Orangi Town area of Karachi, Sindh province, Pakistan. No group claimed responsibility for the attack; however a Tehrik-e-Taliban Pakistan (TTP) member suspected of the crime was killed the next day in a shootout with police."
+            },
+            "id": "edge_150"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-03-13",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_151"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "city"
+            },
+            "id": "edge_152"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "attack_type"
+            },
+            "id": "edge_153"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "weapon"
+            },
+            "id": "edge_154"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:NGO",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "target_type"
+            },
+            "id": "edge_155"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "TARGETED",
+            "target": "target:Founder: Parveen Rehman",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "target"
+            },
+            "id": "edge_156"
+        },
+        {
+            "source": "incident:201303130003",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201303130003",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201303130003",
+                "source_field": "summary"
+            },
+            "id": "edge_157"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201304030011",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "04/03/2013: Assailants threw a grenade at a military vehicle near Rangers headquarters in Karachi city, Sindh province, Pakistan. Four Rangers were killed and four people, including civilians, were injured. The Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the attack, stating that they targeted the Rangers because they supported the secular government."
+            },
+            "id": "edge_158"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-04-03",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_159"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "city"
+            },
+            "id": "edge_160"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "attack_type"
+            },
+            "id": "edge_161"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "weapon"
+            },
+            "id": "edge_162"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Military",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "target_type"
+            },
+            "id": "edge_163"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "TARGETED",
+            "target": "target:Van",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "target"
+            },
+            "id": "edge_164"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:Ehsanullah Ehsan, spokesperson for Tehrik-i-Taliban Pakistan (TTP), claimed responsibility for the incident, stating that they targeted the Karachi Rangers because of their anti-TTP activities and support of the secular government.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "motive"
+            },
+            "id": "edge_165"
+        },
+        {
+            "source": "incident:201304030011",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201304030011",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304030011",
+                "source_field": "summary"
+            },
+            "id": "edge_166"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201304260001",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "04/26/2013: An explosive device attached to a vehicle detonated in Karachi city, Sindh province, Pakistan. The incident occurred outside an Awami National Party office. Eleven people were killed and 40 others were injured in the attack. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            },
+            "id": "edge_167"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-04-26",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_168"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "city"
+            },
+            "id": "edge_169"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "attack_type"
+            },
+            "id": "edge_170"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "weapon"
+            },
+            "id": "edge_171"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Private Citizens & Property",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "target_type"
+            },
+            "id": "edge_172"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "TARGETED",
+            "target": "target:General Secretary: Bashir Jan's Election Rally",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "target"
+            },
+            "id": "edge_173"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:Ehsanullah Ehsan, a spokesperson for Tehrik-i-Taliban Pakistan (TTP), claimed responsibility for the incident, stating that TTP targeted the Awami National Party (ANP) because of the political organization’s secular views.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "motive"
+            },
+            "id": "edge_174"
+        },
+        {
+            "source": "incident:201304260001",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201304260001",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304260001",
+                "source_field": "summary"
+            },
+            "id": "edge_175"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201304270015",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "summary",
+                "attribution": "recorded_as_actor",
+                "text": "04/27/2013: A remote controlled explosive device detonated in Karachi city, Sindh province, Pakistan. The device was hidden inside of a motorcycle outside of a Pakistan Peoples Party (PPP) office. Six people were killed and 28 were injured in the attack. This was one of three attacks in the city on this day, all of which were claimed by Tehrik-e-Taliban Pakistan (TTP)."
+            },
+            "id": "edge_176"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-04-27",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_177"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "city"
+            },
+            "id": "edge_178"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "attack_type"
+            },
+            "id": "edge_179"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "weapon"
+            },
+            "id": "edge_180"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Violent Political Party",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "target_type"
+            },
+            "id": "edge_181"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "TARGETED",
+            "target": "target:Office",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "target"
+            },
+            "id": "edge_182"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:The specific motive is unknown; however, sources note that Tehrik-i-Taliban Pakistan (TTP) vowed to attack Pakistan's secular political parties and organizations.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "motive"
+            },
+            "id": "edge_183"
+        },
+        {
+            "source": "incident:201304270015",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201304270015",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201304270015",
+                "source_field": "summary"
+            },
+            "id": "edge_184"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201305040022",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "05/04/2013: A suicide bomber detonated an explosives-laden motorcycle near a Muttahida Qaumi Movement (MQM) office in Karachi city, Sindh province, Pakistan. This was one of two blasts in the area on this day. In addition to the assailant, at least five people were killed and 30 others were injured across both blasts. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the incident."
+            },
+            "id": "edge_185"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-05-04",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_186"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "city"
+            },
+            "id": "edge_187"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "attack_type"
+            },
+            "id": "edge_188"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "weapon"
+            },
+            "id": "edge_189"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Journalists & Media",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "target_type"
+            },
+            "id": "edge_190"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "TARGETED",
+            "target": "target:Journalists",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "target"
+            },
+            "id": "edge_191"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:Ehsanullah Ehsan, a spokesperson for the Tehrik-i-Taliban (TTP), claimed responsibility for the attack and stated that the Muttahida Qaumi Movement (MQM) office was targeted as part of a larger campaign of violence against secular parties by the TTP.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "motive"
+            },
+            "id": "edge_192"
+        },
+        {
+            "source": "incident:201305040022",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201305040022",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305040022",
+                "source_field": "summary"
+            },
+            "id": "edge_193"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201305110015",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "05/11/2013: An explosive device detonated near the Awami National Party (ANP) election office in Karachi city, Sindh province, Pakistan. This was one of two bombings that occurred within minutes of each other in the same area of Karachi; this first attack was meant to target Amanullah Mehsud, an election candidate. Mehsud was unharmed in the explosion; however, at least 10 people were killed and 36 others were injured across the two incidents. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the coordinated attacks."
+            },
+            "id": "edge_194"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-05-11",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_195"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "city"
+            },
+            "id": "edge_196"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Assassination",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "attack_type"
+            },
+            "id": "edge_197"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "weapon"
+            },
+            "id": "edge_198"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Private Citizens & Property",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "target_type"
+            },
+            "id": "edge_199"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "TARGETED",
+            "target": "target:Election Office of Candidate: Amanullah Mehsud",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "target"
+            },
+            "id": "edge_200"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:The specific motive is unknown; however, sources noted that the target, Amanullah Mehsud, is an Awami National Party (ANP) candidate in Pakistan's general election, which was being held on this date, May 11th, 2013.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "motive"
+            },
+            "id": "edge_201"
+        },
+        {
+            "source": "incident:201305110015",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201305110015",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201305110015",
+                "source_field": "summary"
+            },
+            "id": "edge_202"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201306260008",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "06/26/2013: A remote-controlled explosive device detonated in Karachi city, Sindh province, Pakistan. The explosion targeted Justice Maqbool Baqir of the Sindh High Court. Twelve people were killed and 14 others were injured, including the judge. Tehrik-i-Taliban Pakistan (TTP) claimed responsibility for the attack, stating that the judge was targeted for his anti-Muslim verdicts. Sources also attributed the attack to Lashkar-e-Jhangvi."
+            },
+            "id": "edge_203"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-06-26",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_204"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "city"
+            },
+            "id": "edge_205"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Bombing/Explosion",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "attack_type"
+            },
+            "id": "edge_206"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Explosives",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "weapon"
+            },
+            "id": "edge_207"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Government (General)",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "target_type"
+            },
+            "id": "edge_208"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "TARGETED",
+            "target": "target:Senior Judge: Maqbool Baqir's Convoy",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "target"
+            },
+            "id": "edge_209"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "HAS_MOTIVE",
+            "target": "motive:The Tehrik-i-Taliban Pakistan (TTP) claimed responsibility and stated that Justice Baqar Maqbool of the Sindh High Court was targeted due to his \"un-Islamic decisions\" against militants.",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "motive"
+            },
+            "id": "edge_210"
+        },
+        {
+            "source": "incident:201306260008",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201306260008",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201306260008",
+                "source_field": "summary"
+            },
+            "id": "edge_211"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201308030014",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "08/03/2013: Six assailants on motorcycles opened fire on a Sharafi Goth Police patrol van in Bagh Korangi area, Karachi city, Sindh province, Pakistan. Four police officers were killed in the attack. No group claimed responsibility for the incident; however, police suspected that Tehrik-i-Taliban Pakistan (TTP) was involved."
+            },
+            "id": "edge_212"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-08-03",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_213"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "city"
+            },
+            "id": "edge_214"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "attack_type"
+            },
+            "id": "edge_215"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "weapon"
+            },
+            "id": "edge_216"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Police",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "target_type"
+            },
+            "id": "edge_217"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "TARGETED",
+            "target": "target:Patrol: Zulfiqar",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "target"
+            },
+            "id": "edge_218"
+        },
+        {
+            "source": "incident:201308030014",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201308030014",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201308030014",
+                "source_field": "summary"
+            },
+            "id": "edge_219"
+        },
+        {
+            "source": "actor:Tehrik-i-Taliban Pakistan (TTP)",
+            "relation": "ASSOCIATED_WITH",
+            "target": "incident:201311010044",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "summary",
+                "attribution": "claimed_responsibility",
+                "text": "11/01/2013: Assailants attacked an Internet cafe in the Quaidabad area of Karachi city, Sindh province, Pakistan. The attack was intended to target someone who had already left the area. So, instead, the assailants exchanged gunfire with police. Two people were killed and three others, including an assailant, were wounded. No group claimed responsibility for the incident; however, the attack was attributed to Tehrik-i-Taliban Pakistan (TTP)."
+            },
+            "id": "edge_220"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "OCCURRED_ON",
+            "target": "date:2013-11-01",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "iyear, imonth, iday"
+            },
+            "id": "edge_221"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "OCCURRED_IN",
+            "target": "city:Karachi",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "city"
+            },
+            "id": "edge_222"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "HAS_ATTACK_TYPE",
+            "target": "attack_type:Armed Assault",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "attack_type"
+            },
+            "id": "edge_223"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "USED_WEAPON",
+            "target": "weapon:Firearms",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "weapon"
+            },
+            "id": "edge_224"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "HAS_TARGET_TYPE",
+            "target": "target_type:Business",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "target_type"
+            },
+            "id": "edge_225"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "TARGETED",
+            "target": "target:Internet Cafe",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "target"
+            },
+            "id": "edge_226"
+        },
+        {
+            "source": "incident:201311010044",
+            "relation": "SUPPORTED_BY",
+            "target": "evidence:201311010044",
+            "provenance": {
+                "dataset": "Global Terrorism Database",
+                "provider": "START",
+                "event_id": "201311010044",
+                "source_field": "summary"
+            },
+            "id": "edge_227"
+        }
+    ]
+}

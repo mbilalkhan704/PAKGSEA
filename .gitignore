@@ -1,0 +1,15 @@
+# Environment variables — NEVER commit API keys
+.env
+.env.local
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
+
+# OS/editor cruft
+.DS_Store
+*.log
+.env*

@@ -1,0 +1,12 @@
+{
+    "name": "pakgsea-demo",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Provenance-aware knowledge graph vs. baseline RAG demo prototype for CTD Sindh proposal.",
+    "scripts": {
+        "deploy": "vercel --prod"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
