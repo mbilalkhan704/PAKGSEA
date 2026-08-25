@@ -57,6 +57,7 @@
                     <label class="control-label" for="provider-select">Model provider</label>
                     <select id="provider-select" class="provider-select">
                         <option value="gemini">Gemini 3.6 Flash</option>
+                        <option value="groq">Groq</option>
                     </select>
                 </div>
             </div>
@@ -112,18 +113,8 @@
                     <div class="evidence-chips" id="evidence-chips" hidden></div>
 
                     <div class="graph-toolbar" id="graph-toolbar" hidden>
-                        <div class="graph-legend">
-                            <span class="legend-item"><span class="legend-dot"
-                                    style="background:#c98a4b"></span>Incident</span>
-                            <span class="legend-item"><span class="legend-dot"
-                                    style="background:#4fbf9f"></span>Actor</span>
-                            <span class="legend-item"><span class="legend-dot"
-                                    style="background:#7a8dd6"></span>Weapon</span>
-                            <span class="legend-item"><span class="legend-dot" style="background:#d97ba0"></span>Attack
-                                type</span>
-                            <span class="legend-item"><span class="legend-dot" style="background:#8b93a0"></span>Target
-                                type</span>
-                        </div>
+                        <span class="graph-toolbar-hint">Question → evidence → answer. Click any card for its
+                            source.</span>
                         <button type="button" id="download-svg-btn" class="download-svg-btn">Download SVG</button>
                     </div>
 

@@ -37,21 +37,21 @@ const PROVIDERS = {
     },
 
     // Add more providers here, e.g.:
-    // groq: {
-    //   envKey: "GROQ_API_KEY",
-    //   buildUrl: () => "https://api.groq.com/openai/v1/chat/completions",
-    //   buildHeaders: (apiKey) => ({
-    //     "Content-Type": "application/json",
-    //     Authorization: `Bearer ${apiKey}`,
-    //   }),
-    //   buildBody: (promptText) => ({
-    //     model: "openai/gpt-oss-120b",
-    //     messages: [{ role: "user", content: promptText }],
-    //     temperature: 0.2,
-    //     max_tokens: 2048,
-    //   }),
-    //   parseReply: (data) => data?.choices?.[0]?.message?.content || "No response generated.",
-    // },
+    groq: {
+        envKey: "GROQ_API_KEY",
+        buildUrl: () => "https://api.groq.com/openai/v1/chat/completions",
+        buildHeaders: (apiKey) => ({
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${apiKey}`,
+        }),
+        buildBody: (promptText) => ({
+            model: "openai/gpt-oss-120b",
+            messages: [{ role: "user", content: promptText }],
+            temperature: 0.2,
+            max_tokens: 2048,
+        }),
+        parseReply: (data) => data?.choices?.[0]?.message?.content || "No response generated.",
+    },
     // openai: {
     //   envKey: "OPENAI_API_KEY",
     //   buildUrl: () => "https://api.openai.com/v1/chat/completions",

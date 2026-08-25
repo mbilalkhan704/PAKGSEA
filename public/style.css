@@ -604,6 +604,12 @@ body.presentation-mode {
     color: var(--text-muted);
 }
 
+.graph-toolbar-hint {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--text-muted);
+}
+
 .download-svg-btn {
     background: transparent;
     border: 1px solid var(--border);
