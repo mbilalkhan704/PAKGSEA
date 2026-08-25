@@ -3,13 +3,88 @@
 
 <head>
     <meta charset="UTF-8" />
+
+    <!-- Primary SEO -->
+    <title>Provenance-Aware Knowledge Graph for Security Event Analysis</title>
+    <meta name="description"
+        content="An evidence-grounded research prototype for analyzing historical security events in Karachi using a provenance-aware knowledge graph, graph-based reasoning, and traceable evidence." />
+    <meta name="keywords"
+        content="knowledge graph, provenance-aware knowledge graph, security event analysis, historical security events, GraphRAG, evidence-grounded AI, Karachi, Sindh, terrorism research, AI research" />
+    <meta name="author" content="Muhammad Bilal Khan" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Provenance-Aware Knowledge Graph — Demo</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://pakgsea.vercel.app/" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Provenance-Aware Knowledge Graph for Security Event Analysis" />
+    <meta property="og:description"
+        content="An evidence-grounded research prototype for historical security-event analysis using a provenance-aware knowledge graph and traceable source evidence." />
+    <meta property="og:url" content="https://pakgsea.vercel.app/" />
+    <meta property="og:site_name" content="Provenance-Aware Knowledge Graph" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Social Sharing Image -->
+    <meta property="og:image" content="https://pakgsea.vercel.app/og-image.png" />
+    <meta property="og:image:alt" content="Provenance-Aware Knowledge Graph for Historical Security Event Analysis" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Provenance-Aware Knowledge Graph for Security Event Analysis" />
+    <meta name="twitter:description"
+        content="Evidence-grounded historical security-event analysis using a provenance-aware knowledge graph and traceable source evidence." />
+    <meta name="twitter:image" content="https://pakgsea.vercel.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Provenance-Aware Knowledge Graph for Historical Security Event Analysis" />
+
+    <!-- Theme / Browser UI -->
+    <meta name="theme-color" content="#111827" />
+    <meta name="color-scheme" content="light" />
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Provenance-Aware Knowledge Graph for Historical Security Event Analysis",
+        "description": "An evidence-grounded research prototype for analyzing historical security events using a provenance-aware knowledge graph and traceable source evidence.",
+        "applicationCategory": "ResearchApplication",
+        "operatingSystem": "Web",
+        "author": {
+            "@type": "Person",
+            "name": "Muhammad Bilal Khan"
+        },
+        "url": "https://pakgsea.vercel.app/",
+        "keywords": [
+            "knowledge graph",
+            "provenance",
+            "security event analysis",
+            "historical security events",
+            "GraphRAG",
+            "evidence-grounded AI"
+        ]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
         rel="stylesheet" />
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -57,7 +132,6 @@
                     <label class="control-label" for="provider-select">Model provider</label>
                     <select id="provider-select" class="provider-select">
                         <option value="gemini">Gemini 3.6 Flash</option>
-                        <option value="groq">Groq</option>
                     </select>
                 </div>
             </div>
@@ -90,7 +164,6 @@
 
             <div class="answer-header">
                 <span class="answer-mode-tag" id="answer-mode-tag">GRAPH</span>
-                <span class="answer-provider-tag" id="answer-provider-tag">gemini</span>
             </div>
 
             <div class="answer-scroll">

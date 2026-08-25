@@ -1,5 +1,5 @@
 // public/app.js
-
+console.log("APP.JS LOADED");
 // ---------------------------------------------------------------------------
 // Demo question tiers
 // ---------------------------------------------------------------------------
@@ -40,7 +40,7 @@ const TIERS = [
     {
         tier: "Tier 5 — Temporal, Aggregative & Provenance-Aware Reasoning",
         questions: [
-            "How did the relationship between weapon choice and target type differ between MQM and TTP incidents in Karachi, and which actor showed a stronger association between explosives and political/military targets?",
+            "Across MQM and TTP incidents in Karachi, how does weapon choice relate to target type? Identify the most frequent observed weapon–target associations for each actor, compare their distributions, and distinguish relationships explicitly documented in individual incidents from patterns inferred by aggregating multiple incidents.",
             "How did MQM's attack profile change between its earlier incidents (1998–2002) and its later incidents (2013–2018), considering attack type, weapon, target type, and attribution strength? Which of those changes can be supported by explicit provenance, and which are only patterns inferred from the incident data?",
         ],
     },
@@ -242,7 +242,6 @@ function renderAnswer(answerText, mode, provider, question) {
 
     answerModeTag.textContent = mode.toUpperCase();
     answerModeTag.className = `answer-mode-tag ${mode}`;
-    answerProviderTag.textContent = provider;
 
     const citations = extractCitations(answerText, mode);
     const isUnsupported = UNSUPPORTED_PATTERNS.some((p) => p.test(answerText));

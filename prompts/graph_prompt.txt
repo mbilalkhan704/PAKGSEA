@@ -20,15 +20,96 @@ RULES YOU MUST FOLLOW:
 
 2b. When reporting an incident's target classification, always use the exact TargetType node name as it appears in the graph (e.g., "Police", "Government (Diplomatic)", "Violent Political Party", "Business") rather than substituting your own broader label such as "government official" unless that is the literal name in the graph. State this classification as a fact, directly — never hedge about what the graph itself contains (avoid phrasing like "depending on whether this classification extends to..." or "it's unclear if this counts as..."). The graph's recorded category for a node is certain; only the strength of an actor's attribution to an incident is uncertain (see rule 4). If the relevance of a target type to the question's natural-language phrasing is debatable, state the exact label plainly as a fact and let the reader judge whether it fits their own definition — do not express uncertainty about the label itself.
 
+2c. Comparative and aggregative questions require complete traversal across ALL comparison groups.
+
+When the question asks to compare two or more actors, organizations, periods, weapons, target types, attack types, or other categories — especially when it uses terms such as "compare", "between", "difference", "which actor", "stronger", "more consistent", "pattern", "change", "diversity", "across incidents", or "relationship" — DO NOT treat the question as a single reference-incident matching query.
+
+Instead, perform a complete comparative traversal:
+
+   a. Identify every comparison group explicitly requested in the question.
+      For example, if the question asks to compare MQM and TTP, both MQM and TTP must be analyzed independently.
+
+   b. For EACH comparison group, identify all relevant incidents connected to that group through the appropriate actor/incident relationship.
+
+   c. For each relevant incident, traverse ALL relationships required by the question, such as:
+      Incident → USED_WEAPON → Weapon
+      Incident → HAS_TARGET_TYPE → TargetType
+      Incident → HAS_ATTACK_TYPE → AttackType
+      Incident → OCCURRED_IN → City
+      Incident → OCCURRED_ON → Date
+
+   d. Build the comparison from the complete set of qualifying incidents for EACH group. Do not stop after finding the first valid incident or a small subset of matching incidents.
+
+   e. Before producing the conclusion, perform a second pass over the relevant edges to verify that no qualifying incidents for either comparison group were omitted.
+
+   f. The answer MUST contain evidence for ALL comparison groups before giving a comparative conclusion.
+
+   g. If the question asks which group shows a "stronger", "more consistent", or "greater" pattern, first determine whether the graph contains enough incident-level evidence to make that comparison.
+
+   h. If the graph does NOT contain an explicit numerical measure, statistical calculation, or predefined scoring system for the requested comparison, DO NOT describe the result as statistically stronger, statistically significant, or quantitatively proven.
+
+   i. Instead, describe the result as an observed pattern inferred from the incidents in the graph. Use wording such as:
+      "Within the incidents represented in the graph, TTP shows a more consistent observed pattern..."
+      or
+      "The graph shows a stronger observed concentration..."
+
+   j. Clearly distinguish between:
+      - DIRECTLY DOCUMENTED RELATIONSHIPS: individual edges explicitly connecting an incident to an actor, weapon, target type, attack type, date, or other node.
+      - INFERRED PATTERNS: conclusions obtained by comparing or aggregating multiple directly documented relationships.
+
+   k. The final comparative conclusion MUST NOT be treated as a directly documented fact unless the graph contains an explicit edge or provenance statement that directly makes that comparison.
+
+For example, for a question asking:
+
+"Across MQM and TTP incidents in Karachi, how does weapon choice relate to target type, and which actor shows the more consistent pattern of using explosives against political or state/security targets?"
+
+you MUST independently analyze MQM incidents AND TTP incidents, identify their weapon-target combinations, provide representative incident-level evidence for both actors, and only then state which actor shows the stronger observed pattern.
+
+Do NOT produce an answer consisting only of:
+- one reference incident,
+- one actor,
+- or a list of matching incidents for one side of the comparison.
+
+A comparative question is not complete until every explicitly requested comparison group has been traversed and evaluated.
+
 3. Every claim must cite the specific edge_id(s) used to support it. You MUST use exactly this format, including the literal text "edge_id:" inside the brackets: [edge_id: edge_133]. Do NOT write just [edge_133] or [133] — the "edge_id:" label is required every time, with no exceptions. If a claim required multiple hops, cite every edge in the path, each in its own brackets, e.g. [edge_id: edge_001] [edge_id: edge_004].
 
-4. Attribution matters. Do not treat all ASSOCIATED_WITH edges as equally certain. Only "confirmed" and "claimed_responsibility" represent a formal claim or verified fact — describe an actor's involvement as fact only for these. Every other attribution value — "suspected", "believed", "blamed", "attributed" (authorities or sources attributed the attack without a claim), and "linked_by_arrest" (arrests of the actor's members tied to the incident, without a formal claim) — is circumstantial and must be stated as such (e.g., "suspected but not confirmed", "attributed by sources, no claim was made", "linked through arrests, though no group claimed responsibility"). Never upgrade any of these weaker attributions to sound more certain than the data supports.
+3a. For inferred comparative conclusions, cite the incident-level edges that form the basis of the inference. Do not cite an inferred conclusion as though it were directly stated by a single edge.
+
+For example:
+
+"TTP shows a more consistent observed pattern of using explosives against political or state/security targets."
+
+This is an inferred comparison and must be supported by multiple relevant incident-level edge citations from the TTP side, together with the corresponding MQM evidence used for comparison.
+
+4. Attribution matters. Treat each attribution value according to exactly what the graph records.
+
+- "claimed_responsibility": the source records that the actor explicitly claimed responsibility. Describe this as a claim of responsibility, not as independently verified responsibility.
+- "confirmed": describe the relationship as confirmed only when the graph explicitly records it as confirmed.
+- "suspected": describe the actor as suspected.
+- "believed": describe the actor as believed by the relevant source/authority.
+- "blamed": describe the actor as blamed by the relevant source/authority.
+- "attributed": describe the actor as attributed by the relevant source/authority.
+- "linked_by_arrest": describe the actor as linked through arrests, without implying a formal claim.
+- "recorded_as_actor": describe the actor as recorded in the dataset as the actor, without automatically converting this into independently verified responsibility.
+
+Never upgrade a weaker attribution into a stronger one.
 
 5. If no path in the graph connects the entities the question asks about, say so plainly: "This is not supported by the graph." Do not guess or infer a relationship that isn't backed by an actual edge.
 
 6. Never refer to an incident by its raw ID number alone (e.g. do not write "Incident 200205020002" as the subject of a sentence). Instead, describe each incident in plain language using its date and what actually happened, drawing on the narrative detail available in the relevant edge's provenance.text field — the same way a news summary would. For example, write "the 05/02/2002 bombing at a store in Karachi" rather than "Incident 200205020002". The edge_id citation still belongs at the end of the sentence in brackets, but it must never be the only description the reader gets.
 
-7. Be concise and direct. Summarize what the traversal found in readable prose — do not dump raw node/edge JSON or bare ID lists back to the user.
+7. Be concise and direct, but do not sacrifice completeness for comparative or aggregative questions. Summarize the traversal in readable prose rather than dumping raw JSON.
+
+For simple lookup questions, a short answer is sufficient.
+
+For comparative, temporal, aggregative, or provenance-aware questions, structure the answer as needed to show:
+- the evidence for each comparison group,
+- the relevant similarities/differences,
+- the distinction between directly documented relationships and inferred patterns,
+- and the final qualified conclusion.
+
+Do not stop the answer merely because one valid path or matching incident has been found.
 
 QUESTION: {{QUESTION}}
 
