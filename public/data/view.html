@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PakGSEA — Dataset Viewer</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            background: #f5f6f8;
+            color: #1f2937;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #6b7280;
+            margin-bottom: 32px;
+        }
+
+        .dataset {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+
+        .dataset-header {
+            padding: 18px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            background: #fafafa;
+        }
+
+        .dataset-header h2 {
+            margin: 0 0 5px;
+        }
+
+        .dataset-header span {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e5e7eb;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            background: #f3f4f6;
+            font-weight: 600;
+            z-index: 1;
+        }
+
+        tr:hover td {
+            background: #f9fafb;
+        }
+
+        .loading {
+            padding: 30px;
+            color: #6b7280;
+        }
+
+        .error {
+            padding: 20px;
+            color: #b91c1c;
+            background: #fef2f2;
+        }
+
+        .stats {
+            margin-top: 5px;
+            color: #6b7280;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>PakGSEA Dataset Viewer</h1>
+
+    <div class="subtitle">
+        Historical security-event datasets used by the research prototype.
+    </div>
+
+    <!-- MQM -->
+    <section class="dataset">
+        <div class="dataset-header">
+            <h2>MQM Incidents</h2>
+            <span id="mqm-stats">Loading...</span>
+        </div>
+
+        <div id="mqm-container" class="table-container">
+            <div class="loading">Loading mqm.csv...</div>
+        </div>
+    </section>
+
+    <!-- TTP -->
+    <section class="dataset">
+        <div class="dataset-header">
+            <h2>TTP Incidents</h2>
+            <span id="ttp-stats">Loading...</span>
+        </div>
+
+        <div id="ttp-container" class="table-container">
+            <div class="loading">Loading ttp.csv...</div>
+        </div>
+    </section>
+
+
+    <script>
+        /*
+         * Because this file is inside:
+         *
+         * public/data/dataset-viewer.html
+         *
+         * the CSV files are available at:
+         *
+         * /data/mqm.csv
+         * /data/ttp.csv
+         */
+
+        async function loadCSV(file, containerId, statsId) {
+            const container = document.getElementById(containerId);
+            const stats = document.getElementById(statsId);
+
+            try {
+                const response = await fetch(`/data/${file}`);
+
+                if (!response.ok) {
+                    throw new Error(
+                        `HTTP ${response.status}: ${response.statusText}`
+                    );
+                }
+
+                const csvText = await response.text();
+
+                const rows = parseCSV(csvText);
+
+                if (rows.length === 0) {
+                    container.innerHTML = `
+                        <div class="error">
+                            The CSV file is empty.
+                        </div>
+                    `;
+                    return;
+                }
+
+                const headers = rows[0];
+                const data = rows.slice(1);
+
+                let html = "<table>";
+
+                // Header
+                html += "<thead><tr>";
+
+                headers.forEach(header => {
+                    html += `<th>${escapeHTML(header)}</th>`;
+                });
+
+                html += "</tr></thead>";
+
+                // Body
+                html += "<tbody>";
+
+                data.forEach(row => {
+                    html += "<tr>";
+
+                    headers.forEach((_, index) => {
+                        const value = row[index] ?? "";
+
+                        html += `
+                            <td>${escapeHTML(value)}</td>
+                        `;
+                    });
+
+                    html += "</tr>";
+                });
+
+                html += "</tbody>";
+                html += "</table>";
+
+                container.innerHTML = html;
+
+                stats.textContent =
+                    `${data.length.toLocaleString()} incidents · ` +
+                    `${headers.length} fields`;
+
+            } catch (error) {
+
+                console.error(`Failed to load ${file}:`, error);
+
+                container.innerHTML = `
+                    <div class="error">
+                        Failed to load <strong>${escapeHTML(file)}</strong>.
+                        <br>
+                        ${escapeHTML(error.message)}
+                    </div>
+                `;
+
+                stats.textContent = "Failed to load";
+            }
+        }
+
+
+        /*
+         * CSV parser
+         *
+         * Handles:
+         * - commas
+         * - quoted values
+         * - commas inside quoted values
+         * - escaped quotes ("")
+         * - newlines inside quoted values
+         */
+        function parseCSV(text) {
+
+            const rows = [];
+            let row = [];
+            let value = "";
+            let insideQuotes = false;
+
+            for (let i = 0; i < text.length; i++) {
+
+                const char = text[i];
+                const next = text[i + 1];
+
+                if (char === '"') {
+
+                    if (insideQuotes && next === '"') {
+                        value += '"';
+                        i++;
+                    } else {
+                        insideQuotes = !insideQuotes;
+                    }
+
+                } else if (char === "," && !insideQuotes) {
+
+                    row.push(value);
+                    value = "";
+
+                } else if (
+                    (char === "\n" || char === "\r") &&
+                    !insideQuotes
+                ) {
+
+                    if (char === "\r" && next === "\n") {
+                        i++;
+                    }
+
+                    row.push(value);
+                    value = "";
+
+                    // Avoid adding completely empty rows
+                    if (row.some(cell => cell.trim() !== "")) {
+                        rows.push(row);
+                    }
+
+                    row = [];
+
+                } else {
+
+                    value += char;
+                }
+            }
+
+            // Last value / row
+            if (value !== "" || row.length > 0) {
+                row.push(value);
+
+                if (row.some(cell => cell.trim() !== "")) {
+                    rows.push(row);
+                }
+            }
+
+            return rows;
+        }
+
+
+        function escapeHTML(value) {
+
+            return String(value)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+
+        // Load both datasets
+        loadCSV(
+            "mqm.csv",
+            "mqm-container",
+            "mqm-stats"
+        );
+
+        loadCSV(
+            "ttp.csv",
+            "ttp-container",
+            "ttp-stats"
+        );
+    </script>
+
+</body>
+
+</html>
